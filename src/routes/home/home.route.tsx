@@ -10,16 +10,16 @@ const HomeComponent = () => {
                     <p>PRESS & RELEASES</p>
                     <p>UPCOMINGS</p>
                     <p>MEETING AND MINUTES</p>
-                    <p>DONATION AND GRANTS</p>
+                    echo<p>DONATION AND GRANTS</p>
 
                 </div>
                 <div className="content">
                     <div className="mainImage">
                         <div className="mainer">
-                            <h4>ALUMNI</h4>
+                            <h4>the</h4>
                             <b style={{
-                                fontSize:"3em"
-                            }}>SHSO'04</b>
+                                fontSize:"2em"
+                            }}>STATE HIGH SCHOOL OYEWOLE (SHSO), AGEGE ALUMNI CLASS 2004</b>
                             <p>ASSOCIATION</p>
                         </div>
                     </div>
