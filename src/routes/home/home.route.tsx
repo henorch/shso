@@ -10,7 +10,7 @@ const HomeComponent = () => {
                     <p>PRESS & RELEASES</p>
                     <p>UPCOMINGS</p>
                     <p>MEETING AND MINUTES</p>
-                    echo<p>DONATION AND GRANTS</p>
+                    <p>DONATION AND GRANTS</p>
 
                 </div>
                 <div className="content">
@@ -18,7 +18,8 @@ const HomeComponent = () => {
                         <div className="mainer">
                             <h4>the</h4>
                             <b style={{
-                                fontSize:"2em"
+                                fontSize:"2em",
+                                maxWidth:"500px"
                             }}>STATE HIGH SCHOOL OYEWOLE (SHSO), AGEGE ALUMNI CLASS 2004</b>
                             <p>ASSOCIATION</p>
                         </div>

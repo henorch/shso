@@ -1,8 +1,7 @@
 .mainContainer{
     width:100%;
-    display:grid;
-    grid-template-columns: 25% auto;
-    position: relative;
+    display:flex;
+    
 
     .sideBar{
         height: 100vh;
@@ -13,7 +12,7 @@
         justify-content: center;
         align-items: center;
         color: white;
-        position: relative;
+        position: fixed;
         top:0;
         left: 0;
         font-weight: bold;
@@ -27,11 +26,15 @@
     }
 
     .content{
-        background:transparent;
-        
+        position: relative;
+        left: 240px;
+        top:5px;
+        width: 160vh;
+
         .mainImage{
             background-image: url("../../../public/images/grad.png");
             height:79vh;
+            
             display: flex;
             justify-content: right;
             padding: 40px;
