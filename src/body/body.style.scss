@@ -1,0 +1,13 @@
+.holder, .holder2{
+    width: 99%;
+    display:grid;
+    grid-template-columns: auto 30%;
+    background: black;
+    color: white;
+    padding:5px;
+
+    
+    .image-holder{
+        width:19vw
+    }
+}

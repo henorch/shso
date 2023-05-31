@@ -1,0 +1,86 @@
+.mainImage{
+    min-height: 55vh;
+    padding-top: 10px;
+    background-image: url("../../../public/images/grad.png");
+
+    @media (min-width:769px) {
+        padding-top: -50px;
+        min-height: 60vh;
+    }
+
+    .mainer{
+        color:white;
+        display: flex;
+        flex-direction:column;
+        justify-content: center;
+        align-items: center;
+        text-align: right;
+
+        .name{
+            color:white;
+            font-size: 2em;
+            width: 50%;
+            text-align: right;
+        }
+    }
+}
+
+.mobileNav {
+    display:flex;
+    background: white;
+    padding:5px;
+    justify-content: space-between;
+    height:8vh;
+    align-items: center;
+    position:sticky;
+    top:0;
+
+ 
+
+    @media (min-width:760px){
+        display: none;
+
+    }
+
+    
+
+}
+
+.menu2{
+    width: 95%;
+    display: flex;
+    justify-content: right;
+    padding: 10px;
+    background:transparent;
+    z-index: 1;
+
+    @media (min-width: 200px) {
+        display: none;
+    }
+
+    @media (min-width: 769px) {
+        display:flex ;
+        position: fixed;
+        top: 5;
+    }
+}
+
+.sticky{
+    display: flex;
+    background: white;
+
+    @media (max-width: 768px){
+        display: none;
+    }
+    @media (min-width: 769px){
+            width: 100%;
+            box-shadow: 2px 2px 2px solid grey;
+            height: 10vh;
+            flex-direction: row;
+            justify-content: space-around;
+            position:sticky;
+            top:0;
+            background:white;
+            align-items: center;
+    }
+}

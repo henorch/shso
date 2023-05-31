@@ -1,0 +1,33 @@
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+    background: white;
+    min-width: 70vw;
+    position: fixed;
+    padding:10px;
+    opacity: 0.96;
+    top:0;
+    z-index: 1;
+
+    
+    a:hover{
+        background: green;
+        color: white;
+        cursor: pointer;
+    }
+
+    @media (min-width: 768px){
+        min-width: 30vw;
+    }
+
+    .closeButton{
+        text-align:right;
+        padding:20;
+
+        &:hover{
+            cursor: pointer;
+        }
+    }
+
+
+}

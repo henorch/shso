@@ -1,0 +1,42 @@
+.coreMainContainer {
+    display:"flex";
+    flex-direction:"row";
+    padding:2px;
+    border: 1px solid grey;
+
+
+.coreImageHolder {
+    background:green;
+    color:white;
+}
+.title{
+    padding: 15px;
+    margin: 0px;
+    margin-top: 1px;
+    background-image: linear-gradient(to right, green, blue);
+}
+.coreBody {
+    display:grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+
+    @media (max-width: 769px){
+        grid-template-columns: auto;
+        border-bottom: 1px solid black;
+    }
+    
+        .coreContainer {
+            padding:10px;
+
+            &:hover{
+                box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+                background: lightgrey;
+            }
+        }
+    }
+}
+
+
+
+
+

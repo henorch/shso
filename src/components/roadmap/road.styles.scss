@@ -1,0 +1,28 @@
+.mainRoadContainer{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 2px 2px 2px solid grey;
+
+    .header{
+        display: flex;
+        height: 40vh;
+        font-weight: bold;
+        .title{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding-left: 50px;
+            width:40%;
+            color: white;
+            text-shadow: 2px 2px 2px solid grey;
+            background: yellow;
+            height: 100%;
+
+        }
+
+        .imageholder{
+            width: auto;
+            height: 100%;
+        }
+    }
+}
