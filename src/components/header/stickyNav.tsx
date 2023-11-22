@@ -1,5 +1,7 @@
 import { Link } from "react-router-dom"
 import './header.style.scss'
+import { useState } from "react"
+
 
 
 const StickyNav = () => {
@@ -10,7 +12,7 @@ const StickyNav = () => {
             <Link to="/">Membership</Link>
             <Link to="/">Donation/Grant</Link>
             <Link to="/">releases</Link>
-    </div>
+        </div>
     )
 }
 export default StickyNav
