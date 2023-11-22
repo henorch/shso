@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/shso/static/css/main.62896068.css",
+    "main.js": "/shso/static/js/main.159342ff.js",
+    "static/js/787.28cb0dcd.chunk.js": "/shso/static/js/787.28cb0dcd.chunk.js",
+    "static/media/grad.png": "/shso/static/media/grad.98b26d0ea5387501ac9f.png",
+    "static/media/dolapo.jpg": "/shso/static/media/dolapo.ca6fcab414c08bd59414.jpg",
+    "static/media/Hassan_taye.jpg": "/shso/static/media/Hassan_taye.12175af1fd5a65f3893a.jpg",
+    "static/media/Bakare_Mariam.jpg": "/shso/static/media/Bakare_Mariam.ad878c7f73a64f8b8753.jpg",
+    "static/media/Awoodiya_Stephen.jpg": "/shso/static/media/Awoodiya_Stephen.d39692939f3c27936282.jpg",
+    "static/media/Opeagbe_Rasheedat.jpg": "/shso/static/media/Opeagbe_Rasheedat.a8d4a0055054218ca464.jpg",
+    "static/media/logo.jpg": "/shso/static/media/logo.a50348606687e1b5df09.jpg",
+    "index.html": "/shso/index.html",
+    "main.62896068.css.map": "/shso/static/css/main.62896068.css.map",
+    "main.159342ff.js.map": "/shso/static/js/main.159342ff.js.map",
+    "787.28cb0dcd.chunk.js.map": "/shso/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.62896068.css",
+    "static/js/main.159342ff.js"
+  ]
+}
