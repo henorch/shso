@@ -8,43 +8,43 @@ import { useMainContext } from '../../context/mainContext'
 import Body from "../../body/body.components"
 
 const MobileMenu = () => {
-    const { closeMenu } = useMainContext() 
+    const { closeMenu } = useMainContext()
     return (
         <div className="mainContainer">
             <span className="closeButton" onClick={
                 closeMenu
-                }>x CLOSE</span>    
+            }>x CLOSE</span>
             <Link to="/" onClick={
                 closeMenu
-                }>Home</Link>
+            }>Home</Link>
             <Link to="/about" onClick={
                 closeMenu
-                }>About us</Link>
-           <Link to="/glance" onClick={
+            }>About us</Link>
+            <Link to="/glance" onClick={
                 closeMenu
-                }>@ a Glance</Link>
+            }>@ a Glance</Link>
             <Link to="/" onClick={
                 closeMenu
-                }>Upcomings</Link>
+            }>Upcomings</Link>
             <Link to="/" onClick={
                 closeMenu
-                }>Meetings & Minutes</Link>
+            }>Meetings & Minutes</Link>
             <Link to="/" onClick={
                 closeMenu
-                }>Job Offer</Link>
+            }>Job Offer</Link>
             <Link to="/" onClick={
                 closeMenu
-                }>Press & Release</Link>
+            }>Press & Release</Link>
             <Link to="/" onClick={
                 closeMenu
-                }>Donation & Grant</Link>
+            }>Donation & Grant</Link>
 
-            <Link to="/" onClick={
+            <Link to="/membership" onClick={
                 closeMenu
-                } style={{
-                background:"blue",
-                color:"white",
-                fontWeight:"bold"
+            } style={{
+                background: "blue",
+                color: "white",
+                fontWeight: "bold"
             }}>Membership</Link>
         </div>
     )
@@ -55,11 +55,11 @@ const Home2 = () => {
     const { isOpen } = useMainContext()
     return (<div style={{
         maxWidth: "98%",
-        margin:"0 auto"
+        margin: "0 auto"
     }}>
-    <Header/>
-        {isOpen && <MobileMenu/> }
-        <Body/>
+        <Header />
+        {isOpen && <MobileMenu />}
+        <Body />
     </div>)
 }
 
