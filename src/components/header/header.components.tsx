@@ -5,22 +5,22 @@ import MobileNav from './mobileNav';
 import StickyNav from './stickyNav';
 
 const Header = () => {
-    return(
+    return (
         <>
-        <MobileNav/>
-        <div className="mainImage">
-            <div className='menu2'>
-                <MenuButton/>
+            <MobileNav />
+            <div className="mainImage">
+                <div className='menu2'>
+                    <MenuButton />
+                </div>
+                <div className="mainer">
+                    <h4>the</h4>
+                    <img src={logo} alt="logo" width="250px" />
+                    <b className="name">SHSO Alumni`2004</b>
+                    <p>ASSOCIATION</p>
+                </div>
             </div>
-            <div className="mainer">
-                 <h4>the</h4>
-                 <img src={logo} alt="logo" width="250px"/>
-                <b className="name">SHSO Alumni`2004</b>
-                <p>ASSOCIATION</p>
-            </div>
-        </div>
-        <StickyNav/>
-        
+            <StickyNav />
+
         </>
     )
 }
