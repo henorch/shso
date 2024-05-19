@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/shso/static/css/main.62896068.css",
-    "main.js": "/shso/static/js/main.25e59d3a.js",
+    "main.css": "/shso/static/css/main.f0f539e9.css",
+    "main.js": "/shso/static/js/main.c99629a3.js",
     "static/js/787.28cb0dcd.chunk.js": "/shso/static/js/787.28cb0dcd.chunk.js",
     "static/media/grad.png": "/shso/static/media/grad.98b26d0ea5387501ac9f.png",
     "static/media/dolapo.jpg": "/shso/static/media/dolapo.ca6fcab414c08bd59414.jpg",
@@ -11,12 +11,12 @@
     "static/media/Opeagbe_Rasheedat.jpg": "/shso/static/media/Opeagbe_Rasheedat.a8d4a0055054218ca464.jpg",
     "static/media/logo.jpg": "/shso/static/media/logo.a50348606687e1b5df09.jpg",
     "index.html": "/shso/index.html",
-    "main.62896068.css.map": "/shso/static/css/main.62896068.css.map",
-    "main.25e59d3a.js.map": "/shso/static/js/main.25e59d3a.js.map",
+    "main.f0f539e9.css.map": "/shso/static/css/main.f0f539e9.css.map",
+    "main.c99629a3.js.map": "/shso/static/js/main.c99629a3.js.map",
     "787.28cb0dcd.chunk.js.map": "/shso/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.62896068.css",
-    "static/js/main.25e59d3a.js"
+    "static/css/main.f0f539e9.css",
+    "static/js/main.c99629a3.js"
   ]
 }
