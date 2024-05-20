@@ -1,7 +1,9 @@
 .mainImage {
-    min-height: 55vh;
+    min-height: 70vh;
     padding-top: 10px;
-    background-image: url("../../../public/images/grad.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 
     @media (min-width:769px) {
         padding-top: -50px;
@@ -13,15 +15,15 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
+        margin-top: 24vh;
         align-items: center;
         text-align: right;
 
         .name {
             color: white;
             font-size: 2em;
-            font-family: 'Pacifico', cursive;
             width: 50%;
-            text-align: right;
+            text-align: center;
         }
     }
 }

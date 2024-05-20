@@ -96,6 +96,7 @@ const Footer = () => {
             background: "black",
             color: "white",
             display: "flex",
+            fontFamily: 'Quintessential',
             flexDirection: 'column',
             alignItems: 'center',
             justifyContent: 'center',

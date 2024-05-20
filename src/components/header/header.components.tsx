@@ -3,6 +3,74 @@ import './header.style.scss';
 import logo from '../../assets/admin/logo.jpg';
 import MobileNav from './mobileNav';
 import StickyNav from './stickyNav';
+import { useEffect, useState } from 'react';
+import { url } from 'inspector';
+
+import { title } from 'process';
+
+const slideImages = [
+    {
+        id: 1,
+        image: require("../../assets/slide_images/slide_1.jpeg"),
+        title: "The Power to Change Tarjectory"
+    },
+    {
+        id: 2,
+        image: require("../../assets/slide_images/slide_2.jpeg"),
+        title: "The Intelligence and Character is the true goal of education"
+    },
+    {
+        id: 1,
+        image: require("../../assets/slide_images/slide_3.jpeg"),
+        title: "The freedom to nuture our path, a society where everyone grow"
+    }
+]
+
+
+const SlideImage = () => {
+    const [currentImage, setCurrentImage] = useState(0)
+    const autoplayInterval = 5000
+
+    const nextSlide = () => {
+        setCurrentImage(prevState =>
+            prevState === slideImages.length - 1 ? 0 : prevState + 1
+        )
+    }
+
+    const prevSlide = () => {
+        setCurrentImage(prevState =>
+            prevState === slideImages.length - 1 ? 0 : prevState - 1
+        )
+    }
+
+    useEffect(() => {
+        const intervalId = setInterval(nextSlide, autoplayInterval);
+        return () => clearInterval(intervalId);
+    }, [autoplayInterval]);
+
+    return (
+        <div
+            className='mainImage'
+            style={{
+                backgroundImage: `url(${slideImages[currentImage].image})`
+            }}>
+
+            <b style={{
+                backgroundColor: 'wheat',
+                width: '60%',
+                fontFamily: 'Quintessential',
+                padding: '10px',
+                alignSelf: 'flex-end',
+                borderRadius: '5px',
+                opacity: '0.7'
+            }}>{slideImages[currentImage].title}</b>
+            <div className="mainer">
+                <b className="name">SHSO Agege ALUMNI CLASS 2004 </b>
+                <p>ASSOCIATION</p>
+            </div>
+        </div>
+    )
+}
 
 const Header = () => {
     return (
@@ -12,13 +80,18 @@ const Header = () => {
                 <div className='menu2'>
                     <MenuButton />
                 </div>
+                <SlideImage />
+            </div>
+            {/* <div className="mainImage">
+                <div className='menu2'>
+                    <MenuButton />
+                </div>
                 <div className="mainer">
-                    <h4>the</h4>
                     <img src={logo} alt="logo" width="250px" />
-                    <b className="name">SHSO Alumni`2004</b>
+                    <b className="name">SHSO Agege ALUMNI CLASS 2004 </b>
                     <p>ASSOCIATION</p>
                 </div>
-            </div>
+            </div> */}
             <StickyNav />
 
         </>

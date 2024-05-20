@@ -1,5 +1,5 @@
 .App {
-  font-family: 'Quintessential', cursive;
+
   text-align: justify;
 }
 
@@ -33,6 +33,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
