@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/shso/static/css/main.11fa6feb.css",
-    "main.js": "/shso/static/js/main.ddfd143f.js",
+    "main.js": "/shso/static/js/main.8520b7c9.js",
     "static/js/787.28cb0dcd.chunk.js": "/shso/static/js/787.28cb0dcd.chunk.js",
     "static/media/dolapo.jpg": "/shso/static/media/dolapo.ca6fcab414c08bd59414.jpg",
     "static/media/George_Elizabeth.jpg": "/shso/static/media/George_Elizabeth.23a8cdce277c33dbdd64.jpg",
@@ -17,11 +17,11 @@
     "static/media/slide_3.jpeg": "/shso/static/media/slide_3.08ddaa393723454d63a2.jpeg",
     "index.html": "/shso/index.html",
     "main.11fa6feb.css.map": "/shso/static/css/main.11fa6feb.css.map",
-    "main.ddfd143f.js.map": "/shso/static/js/main.ddfd143f.js.map",
+    "main.8520b7c9.js.map": "/shso/static/js/main.8520b7c9.js.map",
     "787.28cb0dcd.chunk.js.map": "/shso/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.11fa6feb.css",
-    "static/js/main.ddfd143f.js"
+    "static/js/main.8520b7c9.js"
   ]
 }
