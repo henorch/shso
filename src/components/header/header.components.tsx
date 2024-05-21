@@ -81,16 +81,6 @@ const Header = () => {
                 </div>
                 <SlideImage />
             </div>
-            {/* <div className="mainImage">
-                <div className='menu2'>
-                    <MenuButton />
-                </div>
-                <div className="mainer">
-                    <img src={logo} alt="logo" width="250px" />
-                    <b className="name">SHSO Agege ALUMNI CLASS 2004 </b>
-                    <p>ASSOCIATION</p>
-                </div>
-            </div> */}
             <StickyNav />
 
         </>

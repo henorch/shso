@@ -37,8 +37,7 @@
     align-items: center;
     position: sticky;
     top: 0;
-
-
+    z-index: 1;
 
     @media (min-width:760px) {
         display: none;

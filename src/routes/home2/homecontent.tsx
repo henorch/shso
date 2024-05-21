@@ -12,12 +12,13 @@ const PresidentSpeech: React.FC<SpeechProps> = ({ onClose }) => {
         <div style={{
             zIndex: 1,
             position: 'fixed',
-            padding: '5px',
-            top: 60,
-            width: "96%",
+            paddingBottom: '10px',
+            top: 0,
+            width: "100%",
+            height: "100%",
             margin: '0px auto',
             background: 'white',
-            overflowY: "auto"
+            overflow: 'auto'
         }}>
             <div style={{
                 display: 'flex',
@@ -29,6 +30,7 @@ const PresidentSpeech: React.FC<SpeechProps> = ({ onClose }) => {
                     backgroundColor: 'red',
                     color: 'white',
                     height: '25px',
+                    marginRight: '20px',
                     borderRadius: '5px'
                 }}>X CLOSE</button></div>
             <p>It’s with a profound honor as the President of our great association State High School Oyewole (SHSO) Agege, Alumni Class 2004 to have the opportunity to welcome such a distinguished group of individuals. On behalf of the entire alumni association, I would like to extend a warm welcome to each and every one of you.
