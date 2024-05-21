@@ -1,8 +1,13 @@
-import { useState } from "react";
+import React, { useState } from "react";
 import BoardTrustee from "../../components/board/board.component";
 
+interface SpeechProps {
+    onClose: () => void;
+}
 
-const PresidentSpeech = () => {
+
+const PresidentSpeech: React.FC<SpeechProps> = ({ onClose }) => {
+
     return (
         <div style={{
             zIndex: 1,
@@ -18,17 +23,19 @@ const PresidentSpeech = () => {
                 display: 'flex',
                 justifyContent: 'space-between',
                 alignItems: 'center'
-            }}><h4>President speech (Complete)</h4> <button style={{
-                backgroundColor: 'red',
-                color: 'white',
-                height: '25px',
-                borderRadius: '5px'
-            }}>X CLOSE</button></div>
+            }}><h4>President speech (Complete)</h4> <button
+                onClick={onClose}
+                style={{
+                    backgroundColor: 'red',
+                    color: 'white',
+                    height: '25px',
+                    borderRadius: '5px'
+                }}>X CLOSE</button></div>
             <p>It’s with a profound honor as the President of our great association State High School Oyewole (SHSO) Agege, Alumni Class 2004 to have the opportunity to welcome such a distinguished group of individuals. On behalf of the entire alumni association, I would like to extend a warm welcome to each and every one of you.
             </p>
             <p>Our secondary school, State High School Oyewole (SHSO) Agege, holds a special place in our hearts. It is a place where we forged lifelong friendships, learned valuable lessons, and grew into the individuals we are today. The bonds we formed during our time here have stood the test of time, and it is our duty to keep those bonds alive and thriving.
             </p>
-            <p>As the association president, it’s my vision is to create a strong and vibrant network of alumni that extends beyond our school days. I believe that by staying connected, we can support and inspire each other in our personal and professional endeavors. Together, we can make a difference in our society, country at large and leave a lasting impact.
+            <p>As the association president, my vision is to create a strong and vibrant network of alumni that extends beyond our school days. I believe that by staying connected, we can support and inspire each other in our personal and professional endeavors. Together, we can make a difference in our society, country at large and leave a lasting impact.
             </p>
             <p>Throughout the year, we will be organizing various events and activities to bring our alumni together. From reunions and networking events to career workshops and mentorship programs, there will be something for everyone. I encourage each and every one of us to actively participate and contribute our ideas and talents to make these events truly memorable.
             </p>
@@ -51,6 +58,10 @@ const HomeContext = () => {
     const handFullSpeech = () => {
         setFullspeech(true)
     }
+
+    const hideSpeech = () => {
+        setFullspeech(false)
+    }
     return (
         <>
             <div className="holder" style={{
@@ -63,7 +74,7 @@ const HomeContext = () => {
                 marginTop: "10px",
                 marginBottom: "10px"
             }}>
-                {fullspeech && <PresidentSpeech />}
+                {fullspeech && <PresidentSpeech onClose={hideSpeech} />}
 
                 <div className="holder-text">
                     <h4>President Speech</h4>
@@ -89,14 +100,14 @@ const HomeContext = () => {
                 <div style={{
                     width: "100%",
                     display: 'flex',
-                    alignItems: 'center'
+                    flexDirection: 'column',
                 }}>
                     <img className="image-holder" style={{
                         width: "30%",
                         height: "120px",
                         margin: "4px"
                     }} src={require("../../assets/admin/jude.jpeg")} alt="images" />
-                    <b>-- President Jude Chibuogwu</b>
+                    <b>President Jude Chibuogwu</b>
                 </div>
             </div>
 

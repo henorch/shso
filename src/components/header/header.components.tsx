@@ -12,17 +12,17 @@ const slideImages = [
     {
         id: 1,
         image: require("../../assets/slide_images/slide_1.jpeg"),
-        title: "The Power to Change Tarjectory"
+        title: "We have the power to change our trajectory"
     },
     {
         id: 2,
         image: require("../../assets/slide_images/slide_2.jpeg"),
-        title: "The Intelligence and Character is the true goal of education"
+        title: "Intelligence plus Character is the true goal of education"
     },
     {
         id: 1,
         image: require("../../assets/slide_images/slide_3.jpeg"),
-        title: "The freedom to nuture our path, a society where everyone grow"
+        title: "We have the freedom to nuture our path, a society where everyone grow"
     }
 ]
 
@@ -57,9 +57,8 @@ const SlideImage = () => {
 
             <b style={{
                 backgroundColor: 'wheat',
-                width: '60%',
+                width: '100%',
                 fontFamily: 'Quintessential',
-                padding: '10px',
                 alignSelf: 'flex-end',
                 borderRadius: '5px',
                 opacity: '0.7'

@@ -8,12 +8,12 @@ const footerLink = [
     {
         id: 1,
         title: 'about us',
-        link: '/about_us'
+        link: '/about'
     },
     {
         id: 2,
-        title: 'Membership',
-        link: '/member'
+        title: 'glance',
+        link: '/glance'
     },
     {
         id: 3,
@@ -51,7 +51,9 @@ const FooterLink = () => {
         <ul style={{
             listStyleType: "none"
         }}>{footerLink.map((link) => <li><Link style={{
-            color: 'white'
+            color: 'white',
+            margin: '2px',
+            padding: '2px'
         }} to={link.link}>{link.title}</Link></li>)}</ul>
     </>
 }
@@ -70,6 +72,14 @@ const ContactUs = () => {
                 <table>
                     <tr>
                         <td>Name</td>
+                        <td><input placeholder="enter your name" /></td>
+                    </tr>
+                    <tr>
+                        <td>Email</td>
+                        <td><input placeholder="enter your name" /></td>
+                    </tr>
+                    <tr>
+                        <td>Telephone</td>
                         <td><input placeholder="enter your name" /></td>
                     </tr>
                     <tr>

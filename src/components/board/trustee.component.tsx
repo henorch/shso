@@ -48,6 +48,7 @@ const Trusteed = ({ trustees }: TrusteeProps): JSX.Element => {
                 background: "white",
                 position: 'absolute',
                 bottom: 0,
+                fontFamily: 'cursive',
                 textAlign: "center",
                 opacity: 0.5,
                 width: "100%"
