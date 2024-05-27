@@ -1,6 +1,6 @@
 import MenuButton from '../menubutton/menubutton.component';
 import './header.style.scss';
-import logo from '../../assets/admin/logo.jpg';
+import logo from '../../assets/admin/a.png';
 import MobileNav from './mobileNav';
 import StickyNav from './stickyNav';
 import { useEffect, useState } from 'react';
