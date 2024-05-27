@@ -40,7 +40,6 @@ const Trusteed = ({ trustees }: TrusteeProps): JSX.Element => {
                 backgroundSize: 'cover',
                 backgroundRepeat: 'no-repeat',
                 backgroundPosition: "center",
-                border: "1px solid black",
                 margin: "5px",
                 zIndex: -1,
             }}>
@@ -48,7 +47,6 @@ const Trusteed = ({ trustees }: TrusteeProps): JSX.Element => {
                 background: "white",
                 position: 'absolute',
                 bottom: 0,
-                fontFamily: 'cursive',
                 textAlign: "center",
                 opacity: 0.5,
                 width: "100%"
