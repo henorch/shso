@@ -1,9 +1,11 @@
-<<<<<<< HEAD
-import CoreValues from "../../components/Core/cores.component"
 
 const WhoarWe = () => {
     return (
         <div>
+            <h3 style={{
+                backgroundColor: 'grey',
+                padding: '20px'
+            }}> Who are We?</h3>
             <p>Welcome to the state High School Oyewole (ShSO) Agege, Alumni Class 2004 Association! We are a group of former students who have graduated from State Senior High School Oyewole Agege and come together to support and promote the school's mission and values while building a community of professional individuals with zeal to community growth progress individuals.
             </p>
             <p>
@@ -83,5 +85,3 @@ const About = () => {
 }
 
 export default About
-=======
->>>>>>> refs/remotes/origin/main
