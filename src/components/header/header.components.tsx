@@ -1,6 +1,6 @@
 import MenuButton from '../menubutton/menubutton.component';
 import './header.style.scss';
-import logo from '../../assets/admin/a.png';
+import logo from '../../assets/admin/b.png';
 import MobileNav from './mobileNav';
 import StickyNav from './stickyNav';
 import { useEffect, useState } from 'react';
@@ -64,8 +64,8 @@ const SlideImage = () => {
                 opacity: '0.7'
             }}>{slideImages[currentImage].title}</b>
             <div className="mainer">
-                <b className="name">SHSO Agege ALUMNI CLASS 2004 </b>
-                <p>ASSOCIATION</p>
+                <img src={logo} alt='logo' width="300px" height="300px" />
+
             </div>
         </div>
     )

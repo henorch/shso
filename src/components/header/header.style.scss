@@ -1,3 +1,6 @@
+$animation-duration: 2s;
+$animation-timing: ease-in-out;
+
 .mainImage {
     min-height: 70vh;
     padding-top: 10px;
@@ -18,12 +21,14 @@
         margin-top: 24vh;
         align-items: center;
         text-align: right;
+        animation: SlideIn $animation-duration $animation-timing forwards;
 
         .name {
             color: white;
             font-size: 2em;
             width: 50%;
             text-align: center;
+
         }
     }
 }
@@ -86,4 +91,15 @@
         background: white;
         align-items: center;
     }
+}
+
+@keyframes SlideIn {
+    from {
+        transform: scale(0.5);
+    }
+
+    to {
+        transform: scale(1);
+    }
+
 }

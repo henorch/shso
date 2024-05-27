@@ -1,3 +1,4 @@
+import { useState } from "react";
 import BoardTrustee from "../../components/board/board.component";
 
 interface SpeechProps {
