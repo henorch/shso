@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import CoreValues from "../../components/Core/cores.component"
 
 const WhoarWe = () => {
@@ -82,3 +83,5 @@ const About = () => {
 }
 
 export default About
+=======
+>>>>>>> refs/remotes/origin/main

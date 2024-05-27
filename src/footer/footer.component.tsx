@@ -50,7 +50,7 @@ const FooterLink = () => {
     return <>
         <ul style={{
             listStyleType: "none"
-        }}>{footerLink.map((link) => <li><Link style={{
+        }}>{footerLink.map((link) => <li key={link.id}><Link style={{
             color: 'white',
             margin: '2px',
             padding: '2px'
@@ -60,7 +60,27 @@ const FooterLink = () => {
 
 const OurCommunity = () => {
     return (
-        <h3>You can Follow us:</h3>
+        <div style={{
+            marginBottom: '10px'
+        }}>
+            <div><h3>You can Follow us:</h3>
+            </div>
+            <div>
+                <h4>call or whatsapp (hotline)</h4>
+                <ul style={{
+                    listStyleType: 'none',
+                    margin: '-20px'
+                }}>
+                    <li><b>07060458490</b></li>
+                    <li><b>07033371817</b></li>
+                    <li><b>08080191954</b></li>
+                    <li> <b>07060835969</b></li>
+                </ul>
+
+            </div>
+
+
+        </div>
     )
 }
 const ContactUs = () => {
@@ -123,7 +143,7 @@ const Footer = () => {
                 <FooterLink />
                 <ContactUs />
             </div>
-            copyright &c by Henovative Global Concept
+            &copy; 2024 by Henovative Global Concept
         </div>
     )
 }
