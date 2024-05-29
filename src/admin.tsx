@@ -8,7 +8,7 @@ export const Trustees = [
     },
     {
         id: 2,
-        name: "Mrs George Elizabeth",
+        name: "George Elizabeth",
         status: "General Secretary",
         image: require("./assets/admin/George_Elizabeth.jpg")
     },
@@ -45,7 +45,7 @@ export const Trustees = [
     },
     {
         id: 8,
-        name: "Miss Adenekan Adedolapo",
+        name: "Adenekan Adedolapo",
         status: "Social Welfare",
         image: require("./assets/admin/dolapo.jpg")
     }

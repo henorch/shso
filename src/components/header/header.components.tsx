@@ -64,7 +64,7 @@ const SlideImage = () => {
                 opacity: '0.7'
             }}>{slideImages[currentImage].title}</b>
             <div className="mainer">
-                <img src={logo} alt='logo' width="300px" height="300px" />
+                {/* <img src={logo} alt='logo' width="300px" height="300px" /> */}
 
             </div>
         </div>
