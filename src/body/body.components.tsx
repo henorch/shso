@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Donation from "../components/DonationModel";
 import Glance from "../components/glance/glance.component";
 import About from "../routes/about/about.routes"
@@ -11,9 +11,20 @@ import { Routes, Route } from 'react-router-dom';
 
 const Body = () => {
     const [isDonate, setIsDonate] = useState<Boolean>(false)
+
+    useEffect(() => {
+        setTimeout(() => {
+            setIsDonate(true);
+        }, 4000);
+    }, [])
+
+    function closeDonate() {
+        setIsDonate(false);
+    }
+
     return (
         <>
-            {isDonate && <Donation />}
+            {isDonate && <Donation isDonate={isDonate} clickedClose={closeDonate} />}
             <Routes>
                 <Route path="/" index element={<HomeContext />} />
                 <Route path="/about" element={<About />} />

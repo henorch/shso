@@ -14,7 +14,8 @@ const MobileNav = () => {
             }}>
                 <img src={logo} alt='logo' width="120px" height="120px" />
                 <h4 style={{
-                    marginLeft: '-15px'
+                    marginLeft: '-15px',
+                    fontSize: '13px'
                 }}>STATE HIGH SCHOOL OYEWOLE '04</h4>
             </div>
             <MenuButton />

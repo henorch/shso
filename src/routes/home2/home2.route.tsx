@@ -23,13 +23,13 @@ const MobileMenu = () => {
             <Link to="/glance" onClick={
                 closeMenu
             }>@ a Glance</Link>
-            <Link to="/" onClick={
+            {/* <Link to="/" onClick={
                 closeMenu
             }>Upcomings</Link>
             <Link to="/" onClick={
                 closeMenu
             }>Meetings & Minutes</Link>
-            <Link to="/" onClick={
+            <Link to="/"  onClick={
                 closeMenu
             }>Job Offer</Link>
             <Link to="/" onClick={
@@ -37,8 +37,11 @@ const MobileMenu = () => {
             }>Press & Release</Link>
             <Link to="/" onClick={
                 closeMenu
-            }>Donation & Grant</Link>
+            }>Donation & Grant</Link> */}
 
+            <Link to="/" onClick={
+                closeMenu
+            }>Donation & Grant</Link>
             <Link to="/membership" onClick={
                 closeMenu
             } style={{

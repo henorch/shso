@@ -1,4 +1,14 @@
-const Donation = () => {
+import { FC } from "react";
+
+interface DonaOpen {
+    isDonate: Boolean,
+    clickedClose: () => void
+}
+
+
+
+
+const Donation: FC<DonaOpen> = ({ isDonate, clickedClose }) => {
     return (
         <div style={{
             background: "#ffefef",
@@ -8,25 +18,25 @@ const Donation = () => {
             justifyContent: 'center',
             padding: 3,
             position: 'fixed',
-            top: 60,
-            left: 10,
+            top: 200,
+            left: 300,
             alignItems: 'center',
             textAlign: 'center',
             zIndex: 1,
             boxShadow: '2px 2px 2px grey'
         }}>
-            <span style={{
-                position: 'fixed',
-                top: 5,
-                left: 380,
-                width: 40,
-                height: 40,
-                display: 'flex',
-                justifyContent: 'center',
-                alignItems: 'center',
-                borderRadius: 50,
-                background: 'white'
-            }}>X</span>
+            <span
+                onClick={clickedClose}
+                style={{
+                    width: 40,
+                    height: 40,
+                    display: 'flex',
+                    float: 'right',
+                    justifyContent: 'center',
+                    alignItems: 'center',
+                    borderRadius: 50,
+                    background: 'white'
+                }}>X</span>
             <h2>All <b>Subscriptions, Donation and Grants</b></h2>
             <b>Should be made to the association account</b>
             <h2>Union Bank</h2>

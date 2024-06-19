@@ -1,4 +1,8 @@
 import { Link } from "react-router-dom"
+import { FaFacebook, FaSquareFacebook, FaSquareTumblr, FaSquareTwitter, FaSquareWhatsapp, FaSquareYoutube, FaYoutube } from "react-icons/fa6";
+import { title } from "process";
+import { link } from "fs";
+
 const footerLink = [
     {
         id: 0,
@@ -21,15 +25,21 @@ const footerLink = [
         link: '/grant_don'
     },
     {
-        id: 4,
-        title: 'Meeting & Minutes',
-        link: '/m_andm'
-    },
-    {
-        id: 5,
-        title: 'Job Offer',
-        link: '/job_offers'
-    },
+        id: 7,
+        title: 'MemberShip',
+        link: "/members"
+    }
+    // 
+    // {
+    //     id: 4,
+    //     title: 'Meeting & Minutes',
+    //     link: '/m_andm'
+    // },
+    // {
+    //     id: 5,
+    //     title: 'Job Offer',
+    //     link: '/job_offers'
+    // },
 
 
 ]
@@ -64,6 +74,12 @@ const OurCommunity = () => {
             marginBottom: '10px'
         }}>
             <div><h3>You can Follow us:</h3>
+                <div>
+                    <FaSquareFacebook size="50" />
+                    <FaSquareYoutube size="50" />
+                    <FaSquareTwitter size="50" />
+                    <FaSquareWhatsapp size="50" />
+                </div>
             </div>
             <div>
                 <h4>call or whatsapp (hotline)</h4>
@@ -114,8 +130,8 @@ const ContactUs = () => {
                     </tr>
                     <tr><td colSpan={2}><button type="submit">Submit</button></td></tr>
                 </table>
-            </form>
-        </div>
+            </form >
+        </div >
     )
 }
 
@@ -143,7 +159,7 @@ const Footer = () => {
                 <FooterLink />
                 <ContactUs />
             </div>
-            &copy; 2024 by Henovative Global Concept
+            &copy; 2024 by SHSO'04 Alumni
         </div>
     )
 }
