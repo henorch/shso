@@ -16,13 +16,18 @@ const footerLink = [
     },
     {
         id: 2,
-        title: 'glance',
-        link: '/glance'
+        title: 'Gallery',
+        link: '/gallery'
     },
     {
         id: 3,
-        title: 'Grants/Donation',
-        link: '/grant_don'
+        title: 'Contact',
+        link: '/contact'
+    },
+    {
+        id: 3,
+        title: 'News & Events',
+        link: '/news'
     },
     {
         id: 7,

@@ -1,0 +1,14 @@
+.tab {
+    height: 40px;
+    display: flex;
+    width: 45%;
+    justify-content: center;
+    padding: 5px;
+    color: white;
+    font-weight: bold;
+    align-items: center;
+
+    .onClick {
+        width: 100%;
+    }
+}

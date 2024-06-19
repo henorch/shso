@@ -4,9 +4,6 @@ import logo from '../../assets/admin/b.png';
 import MobileNav from './mobileNav';
 import StickyNav from './stickyNav';
 import { useEffect, useState } from 'react';
-import { url } from 'inspector';
-
-import { title } from 'process';
 
 const slideImages = [
     {
@@ -63,10 +60,7 @@ const SlideImage = () => {
                 borderRadius: '5px',
                 opacity: '0.7'
             }}>{slideImages[currentImage].title}</b>
-            <div className="mainer">
-                {/* <img src={logo} alt='logo' width="300px" height="300px" /> */}
 
-            </div>
         </div>
     )
 }

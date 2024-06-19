@@ -22,23 +22,13 @@ const MobileMenu = () => {
             }>About us</Link>
             <Link to="/glance" onClick={
                 closeMenu
-            }>@ a Glance</Link>
-            {/* <Link to="/" onClick={
-                closeMenu
-            }>Upcomings</Link>
+            }>Gallery</Link>
             <Link to="/" onClick={
                 closeMenu
-            }>Meetings & Minutes</Link>
-            <Link to="/"  onClick={
-                closeMenu
-            }>Job Offer</Link>
+            }>Contact us</Link>
             <Link to="/" onClick={
                 closeMenu
-            }>Press & Release</Link>
-            <Link to="/" onClick={
-                closeMenu
-            }>Donation & Grant</Link> */}
-
+            }>News and Events</Link>
             <Link to="/" onClick={
                 closeMenu
             }>Donation & Grant</Link>

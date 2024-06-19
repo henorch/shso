@@ -8,10 +8,10 @@ const StickyNav = () => {
     return (
         <div className="sticky">
             <Link to="/">Home</Link>
-            <Link to="/">Press Release</Link>
+            <Link to="/">Gallery</Link>
             <Link to="/">Membership</Link>
             <Link to="/">Donation/Grant</Link>
-            <Link to="/">releases</Link>
+            <Link to="/">News and Events</Link>
         </div>
     )
 }
