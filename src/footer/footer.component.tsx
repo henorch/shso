@@ -75,8 +75,17 @@ const OurCommunity = () => {
         }}>
             <div><h3>You can Follow us:</h3>
                 <div>
-                    <FaSquareFacebook size="50" />
-                    <FaSquareYoutube size="50" />
+
+                    <a style={{
+                        color: 'white'
+                    }} href="https://www.facebook.com/profile.php?id=61559521816722&mibextid=LQQJ4d">
+                        <FaSquareFacebook size="50" />
+                    </a>
+                    <a style={{
+                        color: 'white'
+                    }} href="https://youtube.com/@statehighschooloyewolecl-ce2sm?si=ycLdaMuuZdYovvw6">
+                        <FaSquareYoutube size="50" />
+                    </a>
                     <FaSquareTwitter size="50" />
                     <FaSquareWhatsapp size="50" />
                 </div>
